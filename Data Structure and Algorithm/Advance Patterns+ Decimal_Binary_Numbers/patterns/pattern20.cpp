@@ -26,7 +26,7 @@ int main()
         }
         for (int k = 1; k <= i; k++)
         {
-            cout << count<<" ";
+            cout << count << " ";
             count++;
         }
 

@@ -5,10 +5,7 @@ using namespace std;
 int main()
 {
 
-   
-
-
-     int no;
+    int no;
 
     cout << "\n Enter any Number :";
     cin >> no;
@@ -23,17 +20,16 @@ int main()
         temp = temp / 10;
     }
 
-    no = ans;  
 
     cout << "\n The Individual Bit of Number " << no << " is :" << endl;
+    no = ans;
     while (no)
     {
         r = no % 10;
         no = no / 10;
-        ans =r ;
+        ans = r;
         cout << ans << endl;
     }
-
 
     return 0;
 }
